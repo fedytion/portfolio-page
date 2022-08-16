@@ -10,6 +10,7 @@
     justify-content: flex-end;
     background-color: brown;
     position: fixed;
+    z-index: 0;
     height: 60px;
     width: 100%;
 }
@@ -30,3 +31,28 @@
 .header_link:hover {
     background-color: rgb(146, 46, 46);
 }
+
+.welcome {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(44, 44, 44);
+    height: 100vh;
+    width: 100%;
+}
+
+.welcome_title,
+.welcome_content {
+    color: white;
+}
+
+.welcome_title {
+    font-size: 45px;
+}
+
+.welcome_content {
+    font-size: 20px;
+}
+
+
