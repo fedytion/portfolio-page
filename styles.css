@@ -74,7 +74,7 @@
 }
 
 .work_title {
-    padding: 15px 0;
+    padding: 80px 0 60px;
     font-size: 30px;
 }
 
@@ -120,7 +120,7 @@
 }
 
 .link_button {
-    margin: 20px 0 60px;
+    margin: 80px 0;
     text-align: center;
     width: 140px;
     padding: 10px;
@@ -130,6 +130,7 @@
     font-weight: 400;
     font-size: 20px;
     border: 2px brown solid;
+    text-decoration: none;
 }
 
 .link_button:hover {
@@ -138,4 +139,63 @@
     color: brown;
     transition-duration: 120ms;
     border: 2px rgb(77, 77, 77) solid;
+}
+
+.contact {
+    background-color: rgb(63, 79, 98);
+    height: calc(100vh - 50px);
+    width: 100%;
+}
+
+.contact_title {
+    padding-top: 12%;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 50px;
+}
+
+.contact_content {
+    padding-top: 120px;
+    text-align: center;
+    color: white;
+    font-weight: 200;
+    font-size: 35px;
+}
+
+.contact_items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 5% 15% 0;
+}
+
+.contact_item {
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+}
+
+.contact_img_white{
+    width: 35px;
+    height: 35px;;
+    filter: invert(0.8);
+}
+
+.contact_text {
+    color: white;
+    font-weight: 200;
+    font-size: 30px;
+    margin-left: 5px;
+}
+
+.contact_item:hover {
+    transform: scale(1.15);
+    transition-duration: 170ms;
+}
+
+.contact_item:hover .contact_img_white{
+    filter: invert(1);
 }
